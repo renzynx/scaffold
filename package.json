@@ -1,24 +1,25 @@
 {
-  "name": "scaffold",
-  "version": "0.0.0",
-  "description": "typescript scaffold",
-  "main": "./dist/app.js",
-  "scripts": {
-    "build": "tsup",
-    "watch": "tsup -w",
-    "start": "node dist/app.js",
-    "dev": "tsup --watch --onSuccess \"node ./dist/app.js\"",
-    "format": "prettier --write \"src/**/*.ts\""
-  },
-  "author": "renzynx",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
-    "@typescript-eslint/parser": "^5.13.0",
-    "eslint": "^8.10.0",
-    "prettier": "^2.5.1",
-    "tsup": "^5.11.13"
-  },
-  "packageManager": "yarn@3.2.0"
+	"name": "scaffold",
+	"version": "0.0.0",
+	"description": "typescript scaffold",
+	"main": "./dist/app.js",
+	"scripts": {
+		"build": "tsup",
+		"watch": "tsup -w",
+		"start": "node dist/app.js",
+		"dev": "tsup --watch --onSuccess \"node ./dist/app.js\"",
+		"format": "prettier --write \"src/**/*.ts\"",
+		"lint": "eslint . --ext .ts"
+	},
+	"author": "renzynx",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^17.0.21",
+		"@typescript-eslint/eslint-plugin": "^5.22.0",
+		"@typescript-eslint/parser": "^5.22.0",
+		"eslint": "^8.14.0",
+		"prettier": "^2.5.1",
+		"tsup": "^5.11.13"
+	},
+	"packageManager": "yarn@3.2.0"
 }
