@@ -1,0 +1,8 @@
+{
+  "eslint.enable": true,
+  "eslint.validate": ["typescript"],
+  "eslint.options": {
+    "overrideConfigFile": "./.eslintrc",
+    "extensions": [".ts"]
+  }
+}
